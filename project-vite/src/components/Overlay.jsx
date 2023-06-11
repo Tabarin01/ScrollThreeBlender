@@ -39,53 +39,29 @@ export const Overlay = () => {
     <Scroll html>
       <div class="w-screen">
         <Section opacity={opacityFirstSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            Hello, I'm Wawa Sensei
-          </h1>
-          <p className="text-gray-500">Welcome to my beautiful portfolio</p>
-          <p className="mt-3">I know:</p>
+          <h1 className="font-semibold font-serif text-2xl">Prova titolo</h1>
+          <p className="text-gray-500">Scrolling parallax</p>
+          <p className="mt-3">Questo e' un testo</p>
           <ul className="leading-9">
-            <li>🧑‍💻 How to code</li>
-            <li>🧑‍🏫 How to learn</li>
-            <li>📦 How to deliver</li>
+            <li>Sezione 1</li>
           </ul>
-          <p className="animate-bounce  mt-6">↓</p>
+          <p className="animate-bounce  mt-6">Scroll down ↓</p>
         </Section>
         <Section right opacity={opacitySecondSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            Here are my skillsets 🔥
-          </h1>
-          <p className="text-gray-500">PS: I never test</p>
+          <h1 className="font-semibold font-serif text-2xl">Overlay</h1>
+          <p className="text-gray-500">Scritto in react</p>
           <p className="mt-3">
-            <b>Frontend 🚀</b>
+            <b>Vite-React + JavaScript</b>
           </p>
-          <ul className="leading-9">
-            <li>ReactJS</li>
-            <li>React Native</li>
-            <li>VueJS</li>
-            <li>Tailwind</li>
-          </ul>
-          <p className="mt-3">
-            <b>Backend 🔬</b>
-          </p>
-          <ul className="leading-9">
-            <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
-            <li>PostgreSQL</li>
-          </ul>
-          <p className="animate-bounce  mt-6">↓</p>
+
+          <p className="animate-bounce  mt-6">Scroll up or down ↑↓</p>
         </Section>
         <Section opacity={opacityLastSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            🤙 Call me maybe?
-          </h1>
+          <h1 className="font-semibold font-serif text-2xl">🤙 Let's go</h1>
           <p className="text-gray-500">
-            I'm very expensive but you won't regret it
+            The future of web- ThreeJS-React-TailwindCss
           </p>
-          <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
-          </p>
+          <p className="animate-bounce  mt-6">Scroll Up ↑</p>
         </Section>
       </div>
     </Scroll>
